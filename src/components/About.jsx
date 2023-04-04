@@ -16,7 +16,7 @@ const About = () => {
 
                 <br />
 
-                <p className='text-xl'>
+                <p  className='text-xl'>
                     i have many hobbies,interests,i'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. 
                 </p>
                 <br/>
