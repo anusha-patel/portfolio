@@ -1,0 +1,111 @@
+.portfolio-container{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    /* background: palevioletred; */
+}
+
+.heading h1{
+    font-size: 2rem;
+    /* text-align: center; */
+    font-weight: bold;
+    margin-left: 2rem;
+
+}
+
+/* .card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    gap: 1.7rem;
+    height: auto;
+    margin: 2rem;
+    /* background-color: aquamarine; 
+ */
+
+.card{
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: .6rem;
+
+}
+.card-body{
+    width: 50%;
+    /* background: rgb(135, 135, 159); */
+}
+
+.title h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+
+
+
+.title h2{
+    text-align: left;
+
+}
+
+.list{
+    list-style: circle;
+    margin-left: 1.8rem;
+    margin-top: 1.2rem;
+
+    
+}
+
+.btns{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.link-btn{
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: .6rem;
+    padding: .3rem;
+    margin:1rem 1.2rem ;
+
+}
+.link-btn:hover{
+    /* border: 1px solid white; */
+    background:  white;
+    color: black;
+}
+
+.image{
+    width: 50%;
+    background-color: tan;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+@media  (max-width:600px) {
+    .card{
+        margin-top: 1.2rem;
+        flex-direction: column;
+    }
+    .card-body{
+        width: 100%;
+        /* background: rgb(135, 135, 159); */
+    }
+    .image{
+        width: 100%;
+        background-color: tan;
+    }
+    
+}
