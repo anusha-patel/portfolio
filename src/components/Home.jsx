@@ -10,10 +10,10 @@ const Home = () => {
             <div className='flex-container'>
                 <div className='home-left' >
                     <h2>
-                        I'm a full stack developer
+                        I'm a Front-end developer
 
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, repellendus? Vero voluptas molestias libero eveniet!</p>
+                    <p>Download my resume to know more about me</p>
                     <div>
                         <button className='btn group'>
                             portfolio  

@@ -5,6 +5,9 @@ import project2 from '../assets/project2.avif';
 import project3 from '../assets/project3.avif';
 import project4 from '../assets/project4.avif';
 import project5 from '../assets/project5.avif';
+import project6 from '../assets/project1.avif';
+
+
 
 const Card = () => {
 
@@ -13,7 +16,7 @@ const Card = () => {
             id: 1,
             title: 'Resturant website',
             src: project1,
-            description: 'I have created resturant webpage using HTML5, CSS3, JAVASCRIPT AND JQUERY',
+            description: 'I have created resturant webpage using HTML, CSS, JAVASCRIPT AND JQUERY',
             demo: 'https://anusha-patel.github.io/food/',
             code: 'https://github.com/anusha-patel/food'
 
@@ -21,7 +24,7 @@ const Card = () => {
         {
             id: 2,
             title: 'Travel website',
-            description: 'i have created travel webpage using HTML5, CSS3, JAVASCRIT AND JQUERY',
+            description: 'i have created travel webpage using HTML, CSS, JAVASCRIT AND JQUERY',
             src: project2,
             demo: 'https://anusha-patel.github.io/travel/',
             code: 'https://github.com/anusha-patel/travel',
@@ -33,16 +36,18 @@ const Card = () => {
         {
             id: 3,
             src: project3,
-            title: 'fashion website',
+            title: 'Blog',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            code: 'https://Github.com'
+            demo :'https://anusha-patel.github.io/blog/',
+            code: 'https://github.com/anusha-patel/blog'
         },
         {
             id: 4,
             src: project4,
             title: 'to-do website',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo: 'https://anusha-patel.github.io/food/'
+            demo: 'https://anusha-patel.github.io/aganitha-test-2/',
+            code:'https://github.com/anusha-patel/aganitha-test-2',
         },
         {
             id: 5,
@@ -51,20 +56,24 @@ const Card = () => {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
             demo: 'https://anusha-patel.github.io/food/'
         },
+    
         {
             id: 6,
             src: project5,
-            title: 'Travel website',
+            title: 'snake Game',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo: 'https://anusha-patel.github.io/food/'
+            demo: 'https://anusha-patel.github.io/snakeGame/',
+            code:'https://github.com/anusha-patel/snakeGame',
         },
         {
             id: 7,
-            src: project5,
-            title: 'Travel website',
+            src: project6,
+            title: 'education website',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo: 'https://anusha-patel.github.io/food/'
-        }
+            demo: 'https://anusha-patel.github.io/exam/',
+            code:'https://github.com/anusha-patel/exam',
+        },
+      
     ]
     return (
         <div id='portfolio' className='duration-100'>
@@ -82,16 +91,12 @@ const Card = () => {
                                     <div className="title">
                                         <h1>{title}</h1>
                                         <h2>{description}</h2>
-                                        {/* <ul className='list'>
-                                            <li>html5</li>
-                                            <li>css</li>
-                                            <li>javascript</li>
-                                            <li>react</li>
-                                        </ul> */}
+
                                     </div>
+                                
                                     <div className="btns">
-                                        <a href={demo}> <button className='demo link-btn duration-200'>demo</button> </a>
-                                        <a href={code}> <button className='code link-btn duration-200'>code</button> </a>
+                                        <a href={demo} target="_blank" rel="noreferrer noopener"> <button className='demo link-btn duration-200'>demo</button> </a>
+                                        <a href={code} target="_blank" rel="noreferrer noopener"> <button className='code link-btn duration-200'>code</button> </a>
                                     </div>
                                 </div>
                                 <div className="image">

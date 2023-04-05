@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);
@@ -38,6 +39,9 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 px-4  text-white bg-black fixed'>
             <div>
+                <div className="logo">
+                    
+                </div>
                 <h1 className='font-signature text-5xl ml-2'>Anusha</h1>
 
             </div>
