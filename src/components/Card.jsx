@@ -1,11 +1,10 @@
 import React from 'react';
 import './card.css'
-import project1 from '../assets/project1.avif';
+import project1 from '../assets/food image.png';
 import project2 from '../assets/project2.avif';
-import project3 from '../assets/project3.avif';
-import project4 from '../assets/project4.avif';
-import project5 from '../assets/project5.avif';
-import project6 from '../assets/project1.avif';
+import project3 from '../assets/blog.png';
+import project5 from '../assets/snake game screenshot.png';
+import project6 from '../assets/education site image.png';
 
 
 
@@ -41,24 +40,9 @@ const Card = () => {
             demo :'https://anusha-patel.github.io/blog/',
             code: 'https://github.com/anusha-patel/blog'
         },
+       
         {
             id: 4,
-            src: project4,
-            title: 'to-do website',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo: 'https://anusha-patel.github.io/aganitha-test-2/',
-            code:'https://github.com/anusha-patel/aganitha-test-2',
-        },
-        {
-            id: 5,
-            src: project5,
-            title: 'e-commrical website',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo: 'https://anusha-patel.github.io/food/'
-        },
-    
-        {
-            id: 6,
             src: project5,
             title: 'snake Game',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
@@ -66,7 +50,7 @@ const Card = () => {
             code:'https://github.com/anusha-patel/snakeGame',
         },
         {
-            id: 7,
+            id: 5,
             src: project6,
             title: 'education website',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
@@ -100,7 +84,7 @@ const Card = () => {
                                     </div>
                                 </div>
                                 <div className="image">
-                                    <img src={src} alt="" srcset="" />
+                                    <img className=' w-3 h-3 object-cover' src={src} alt="" srcset="" />
                                 </div>
                             </div>
                         ))}
