@@ -10,5 +10,23 @@ module.exports = {
     }
 
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtils = {
+        ".display-none": {
+          display: "none",
+        },
+      };
+      addUtilities(newUtils);
+    },
+
+    function({ addUtilities }) {
+      const newMore= {
+        ".display-block": {
+          display: "block",
+        },
+      };
+      addUtilities(newMore);
+    },
+  ],
 }

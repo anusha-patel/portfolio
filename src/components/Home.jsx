@@ -1,32 +1,32 @@
 import React from 'react'
 import hero from "../assets/bg-image.avif";
-import './home.css'
+// import './home.css'
 
-import { HiArrowNarrowRight } from "react-icons/hi"
+import { AiFillCaretRight } from "react-icons/ai"
 
 const Home = () => {
     return (
-        <div name="home" className='home-container'>
-            <div className='flex-container'>
-                <div className='home-left' >
-                    <h2>
+        <div name="home" id='home' className='home-container h-screen flex justify-between mr-0'>
+            <div className='flex-container flex w-4/5 mx-auto px-4 py-4 justify-between bg-slate-200'>
+                <div className='home-left w-full items-center mx-auto my-auto text-center md:w-1/2' >
+                    <h2 className=' text-2xl my-2 '>
                         I'm a Front-end developer
 
                     </h2>
-                    <p>Download my resume to know more about me</p>
-                    <div>
-                        <button className='btn group'>
+                    <p className='text-xl my-2'>Download my resume to know more about me</p>
+                    <div className='flex justify-center'>
+                        <button className='btn group bg-gray-700 flex justify-center items-center font-bold text-white rounded-md px-2 py-2'>
                             portfolio  
                             <span className='group-hover:rotate-90 duration-300 '>
-                                <HiArrowNarrowRight size={20} className="ml-2" />
+                                <AiFillCaretRight size={20} className="ml-2" />
                             </span>
                           
 
                         </button>
                     </div>
                 </div>
-                <div className='home-right'>
-                        <img className='image' src={hero} alt="my profile"  srcset="" />
+                <div className='home-right display-none md:display-block my-auto w-1/2 '>
+                        <img className='image w-1/2 mx-auto ' src={hero} alt="my profile"  srcset="" />
                 </div>
 
             </div>

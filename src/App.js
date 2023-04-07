@@ -1,5 +1,6 @@
 import './App.css';
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
+import Nav from './components/nav';
 import Home from './components/Home';
 import SocialLinks from './components/SocialLinks';
 import About from './components/About';
@@ -8,10 +9,13 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Card from './components/Card';
 
+
+
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Nav/>
       <Home />
       <About/>
       {/* <Portfolio/> */}
