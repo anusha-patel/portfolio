@@ -1,11 +1,11 @@
 import React from 'react';
-import html from '../assets/html.png';
-import css from '../assets/css.png';
-import js from '../assets/js.png';
-import ReactImage from '../assets/ReactImage.png';
-import Bootstrap from '../assets/Bootstrap.png';
-import tailwind from '../assets/tailwindImage.png';
-import Github from '../assets/github.png';
+import html from '../../assets/html.png';
+import css from '../../assets/css.png';
+import js from '../../assets/js.png';
+import ReactImage from '../../assets/ReactImage.png';
+import Bootstrap from '../../assets/Bootstrap.png';
+import tailwind from '../../assets/tailwindImage.png';
+import Github from '../../assets/github.png';
 
 const Experience = () => {
 

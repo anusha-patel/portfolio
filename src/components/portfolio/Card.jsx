@@ -1,10 +1,10 @@
 import React from 'react';
 import './card.css'
-import project1 from '../assets/food image.png';
-import project2 from '../assets/project2.avif';
-import project3 from '../assets/blog.png';
-import project5 from '../assets/snake game screenshot.png';
-import project6 from '../assets/education site image.png';
+import project1 from '../../assets/food image.png';
+import project2 from '../../assets/project2.avif';
+import project3 from '../../assets/blog.png';
+import project5 from '../../assets/snake game screenshot.png';
+import project6 from '../../assets/education site image.png';
 
 
 

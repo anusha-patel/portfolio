@@ -3,7 +3,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { ImDownload } from 'react-icons/im';
-import CV from '../assets/resume.pdf'
+import CV from '../../assets/resume.pdf'
 
 
 const SocialLinks = () => {

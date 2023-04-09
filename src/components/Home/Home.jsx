@@ -1,5 +1,6 @@
 import React from 'react'
-import hero from "../assets/bg-image.avif";
+import hero from "../../assets/bg-image.avif";
+import CV from '../../assets/resume.pdf'
 // import './home.css'
 
 import { AiFillCaretRight } from "react-icons/ai"
@@ -16,7 +17,7 @@ const Home = () => {
                     <p className='text-xl my-2'>Download my resume to know more about me</p>
                     <div className='flex justify-center'>
                         <button className='btn group bg-gray-700 flex justify-center items-center font-bold text-white rounded-md px-2 py-2'>
-                            portfolio  
+                           <a href='#portfolio'> portfolio  </a> 
                             <span className='group-hover:rotate-90 duration-300 '>
                                 <AiFillCaretRight size={20} className="ml-2" />
                             </span>
