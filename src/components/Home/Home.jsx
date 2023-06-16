@@ -11,10 +11,10 @@ const Home = () => {
             <div className='flex-container flex w-4/5 mx-auto px-4 py-4 justify-between bg-slate-200'>
                 <div className='home-left w-full items-center mx-auto my-auto text-center md:w-1/2' >
                     <h2 className=' text-2xl my-2 '>
-                        I'm a Front-end developer
+                       Hi, iam <span className=' text-red-800 font-bold'> Anusha </span><br /> Front-end developer.
 
                     </h2>
-                    <p className='text-xl my-2'>Download my resume to know more about me</p>
+                    <p className='text-xl my-2'>i like to <span  className=' text-red-800 font-bold'>ShowCase</span>  my projects </p>
                     <div className='flex justify-center'>
                         <button className='btn group bg-gray-700 flex justify-center items-center font-bold text-white rounded-md px-2 py-2'>
                            <a href='#portfolio'> portfolio  </a> 
