@@ -15,7 +15,7 @@ const SocialLinks = () => {
                     Linkedin <FaLinkedin size={25} />
                 </>
             ),
-            href: 'https:linkedin.com/in/anusha-s-5b8549203',
+            href: 'https:linkedin.com/in/anusha-shamakura',
             style: 'rounded-tr-md'
         },
         {
