@@ -5,6 +5,8 @@ import project2 from '../../assets/project2.avif';
 import project3 from '../../assets/blog.png';
 import project5 from '../../assets/snake game screenshot.png';
 import project6 from '../../assets/education site image.png';
+import project7 from '../../assets/project7.png'
+import project8 from '../../assets/project8.png'
 
 
 
@@ -36,8 +38,7 @@ const Card = () => {
             id: 3,
             src: project3,
             title: 'Blog',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
-            demo :'https://anusha-patel.github.io/blog/',
+            description: 'i have created static blog using "html, css and javasccript',
             code: 'https://github.com/anusha-patel/blog'
         },
        
@@ -45,7 +46,7 @@ const Card = () => {
             id: 4,
             src: project5,
             title: 'snake Game',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
+            description: 'i have created one of my childhood favourite snake game using html, css and javasript',
             demo: 'https://anusha-patel.github.io/snakeGame/',
             code:'https://github.com/anusha-patel/snakeGame',
         },
@@ -53,10 +54,26 @@ const Card = () => {
             id: 5,
             src: project6,
             title: 'education website',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at debitis ullam doloremque vero! Laboriosam animi libero explicabo blanditiis placeat?',
+            description: 'i have created educational website using " html,css and javascript"',
             demo: 'https://anusha-patel.github.io/exam/',
             code:'https://github.com/anusha-patel/exam',
         },
+        {
+            id:6,
+            src:project7,
+            title:'google-keep-clone',
+            description:"i have created clone of goole keep using 'html, css, javascript'",
+            demo:"https://anusha-patel.github.io/google-keep-clone/",
+            code:"https://github.com/anusha-patel/google-keep-clone",
+        },
+        {
+            id:7,
+            src:project8,
+            title:'varal UAE',
+            description:"i have created Website 'html, css, javascript'",
+            demo:"https://anusha-patel.github.io/varal/",
+            code:"https://github.com/anusha-patel/varal",
+        }
       
     ]
     return (
@@ -83,8 +100,8 @@ const Card = () => {
                                         <a href={code} target="_blank" rel="noreferrer noopener"> <button className='code link-btn duration-200'>code</button> </a>
                                     </div>
                                 </div>
-                                <div className="image">
-                                    <img className=' w-3 h-3 object-cover' src={src} alt="" srcset="" />
+                                <div className="image w-full h-full">
+                                    <img className=' w-3 h-4 object-contain ' src={src} alt="" srcset="" />
                                 </div>
                             </div>
                         ))}
