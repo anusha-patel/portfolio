@@ -39,7 +39,9 @@ const Card = () => {
             src: project3,
             title: 'Blog',
             description: 'i have created static blog using "html, css and javasccript',
-            code: 'https://github.com/anusha-patel/blog'
+            code: 'https://github.com/anusha-patel/blog',
+            demo: 'https://anusha-patel.github.io/blog/' , 
+
         },
        
         {
@@ -55,8 +57,8 @@ const Card = () => {
             src: project6,
             title: 'education website',
             description: 'i have created educational website using " html,css and javascript"',
-            demo: 'https://anusha-patel.github.io/exam/',
-            code:'https://github.com/anusha-patel/exam',
+            demo: 'https://anusha-patel.github.io/trade/',
+            code:'https://github.com/anusha-patel/trade',
         },
         {
             id:6,
