@@ -7,6 +7,7 @@ import project5 from '../../assets/snake game screenshot.png';
 import project6 from '../../assets/education site image.png';
 import project7 from '../../assets/project7.png'
 import project8 from '../../assets/project8.png'
+import project9 from '../../assets/project9.png'
 
 
 
@@ -29,9 +30,6 @@ const Card = () => {
             src: project2,
             demo: 'https://anusha-patel.github.io/travel/',
             code: 'https://github.com/anusha-patel/travel',
-
-
-
 
         },
         {
@@ -75,7 +73,16 @@ const Card = () => {
             description:"i have created Website 'html, css, javascript'",
             demo:"https://anusha-patel.github.io/varal/",
             code:"https://github.com/anusha-patel/varal",
-        }
+        },
+        {
+            id: 8,
+            title: 'real estate',
+            description: 'i have created travel webpage using HTML, CSS, javascript, react and next js',
+            src: project9,
+            demo: 'https://real-estate-pink-nine.vercel.app/',
+            code: 'https://github.com/anusha-patel/real-estate',
+
+        },
       
     ]
     return (
