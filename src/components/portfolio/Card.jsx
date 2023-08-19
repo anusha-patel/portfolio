@@ -77,7 +77,7 @@ const Card = () => {
         {
             id: 8,
             title: 'real estate',
-            description: 'i have created travel webpage using HTML, CSS, javascript, react and next js',
+            description: 'i have created real time realestate app using HTML, CSS, javascript, react, rapid Api and next js',
             src: project9,
             demo: 'https://real-estate-pink-nine.vercel.app/',
             code: 'https://github.com/anusha-patel/real-estate',
