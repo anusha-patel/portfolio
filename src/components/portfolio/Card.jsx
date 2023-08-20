@@ -12,13 +12,18 @@ import project9 from '../../assets/project9.png'
 
 
 const Card = () => {
+    const width ='100%';
+    const height = '100%';
+
 
     const portfolio = [
         {
             id: 1,
             title: 'Resturant website',
             src: project1,
-            description: 'I have created resturant webpage using HTML, CSS, JAVASCRIPT AND JQUERY',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
             demo: 'https://anusha-patel.github.io/food/',
             code: 'https://github.com/anusha-patel/food'
 
@@ -26,7 +31,9 @@ const Card = () => {
         {
             id: 2,
             title: 'Travel website',
-            description: 'i have created travel webpage using HTML, CSS, JAVASCRIT AND JQUERY',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
             src: project2,
             demo: 'https://anusha-patel.github.io/travel/',
             code: 'https://github.com/anusha-patel/travel',
@@ -36,54 +43,68 @@ const Card = () => {
             id: 3,
             src: project3,
             title: 'Blog',
-            description: 'i have created static blog using "html, css and javasccript',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
             code: 'https://github.com/anusha-patel/blog',
-            demo: 'https://anusha-patel.github.io/blog/' , 
+            demo: 'https://anusha-patel.github.io/blog/',
 
         },
-       
+
         {
             id: 4,
             src: project5,
             title: 'snake Game',
-            description: 'i have created one of my childhood favourite snake game using html, css and javasript',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
             demo: 'https://anusha-patel.github.io/snakeGame/',
-            code:'https://github.com/anusha-patel/snakeGame',
+            code: 'https://github.com/anusha-patel/snakeGame',
         },
         {
             id: 5,
             src: project6,
             title: 'education website',
-            description: 'i have created educational website using " html,css and javascript"',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
             demo: 'https://anusha-patel.github.io/trade/',
-            code:'https://github.com/anusha-patel/trade',
+            code: 'https://github.com/anusha-patel/trade',
         },
         {
-            id:6,
-            src:project7,
-            title:'google-keep-clone',
-            description:"i have created clone of goole keep using 'html, css, javascript'",
-            demo:"https://anusha-patel.github.io/google-keep-clone/",
-            code:"https://github.com/anusha-patel/google-keep-clone",
+            id: 6,
+            src: project7,
+            title: 'google-keep-clone',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: "https://anusha-patel.github.io/google-keep-clone/",
+            code: "https://github.com/anusha-patel/google-keep-clone",
         },
         {
-            id:7,
-            src:project8,
-            title:'varal UAE',
-            description:"i have created Website 'html, css, javascript'",
-            demo:"https://anusha-patel.github.io/varal/",
-            code:"https://github.com/anusha-patel/varal",
+            id: 7,
+            src: project8,
+            title: 'varal UAE',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: "https://anusha-patel.github.io/varal/",
+            code: "https://github.com/anusha-patel/varal",
         },
         {
             id: 8,
             title: 'real estate',
-            description: 'i have created real time realestate app using HTML, CSS, javascript, react, rapid Api and next js',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            lan_4: 'React js',
+            lan_5:'Next js',
             src: project9,
             demo: 'https://real-estate-pink-nine.vercel.app/',
             code: 'https://github.com/anusha-patel/real-estate',
 
         },
-      
+
     ]
     return (
         <div id='portfolio' className='duration-100'>
@@ -95,22 +116,32 @@ const Card = () => {
                         <p className='py-4'>check some of my works</p>
                     </div>
                     <div className="card-container grid sm:grid-cols-1 md:grid-cols-2 gap-6 px-12 sm:px-0">
-                        {portfolio.map(({ id, src, title, demo, code, description }) => (
+                        {portfolio.map(({ id, src, title, demo, code, lan_1, lan_2, lan_3, lan_4, lan_5 }) => (
                             <div className="card shadow-md shadow-gray-600" key={id}>
                                 <div className='card-body'>
                                     <div className="title">
                                         <h1>{title}</h1>
-                                        <h2>{description}</h2>
+                                        <h2 className='ml-3 p-3'>Languages Used</h2>
+                                        <ul className=' w-90 ml-10 text-cyan-50 mb-7 ' >
+                                            <li>{lan_1}</li>
+                                            <li>{lan_2}</li>
+                                            <li>{lan_3}</li>
+                                            <li>{lan_4}</li>
+                                            <li>{lan_5}</li>
+
+                                        </ul>
+
+
 
                                     </div>
-                                
+
                                     <div className="btns">
                                         <a href={demo} target="_blank" rel="noreferrer noopener"> <button className='demo link-btn duration-200'>demo</button> </a>
                                         <a href={code} target="_blank" rel="noreferrer noopener"> <button className='code link-btn duration-200'>code</button> </a>
                                     </div>
                                 </div>
                                 <div className="image w-full h-full">
-                                    <img className=' w-3 h-4 object-contain ' src={src} alt="" srcset="" />
+                                    <img className='' width={width} height={height} src={src} alt="" srcset="" />
                                 </div>
                             </div>
                         ))}
