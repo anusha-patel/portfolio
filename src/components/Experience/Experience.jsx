@@ -6,6 +6,7 @@ import ReactImage from '../../assets/ReactImage.png';
 import Bootstrap from '../../assets/Bootstrap.png';
 import tailwind from '../../assets/tailwindImage.png';
 import Github from '../../assets/github.png';
+import Next from '../../assets/next2.webp'
 
 const Experience = () => {
 
@@ -51,7 +52,13 @@ const Experience = () => {
             src:Github,
             text:'Github',
             style:'shadow-gray-400'
-        }
+        },
+        {
+            id:8,
+            src:Next,
+            text:'Next js',
+            style:'shadow-red-400'
+        },
     ]
   return (
     <div name = 'experience' id='experince'  className=' duration-200 bg-gradient-to-b from-gray-800 to-black w-full h-full'>
@@ -63,7 +70,7 @@ const Experience = () => {
                 <p className='py-8'>these are the technologies I've worked with</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 cursor-pointer '>
                 {
                 experience.map(({id,src,text,style})=>(
                     <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
