@@ -7,13 +7,14 @@ import project5 from '../../assets/snake game screenshot.png';
 import project6 from '../../assets/education site image.png';
 import project7 from '../../assets/project7.png'
 import project8 from '../../assets/project8.png'
-import project9 from '../../assets/project9.png'
+import project9 from '../../assets/project9.png';
+import weather from '../../assets/weather_app.png'
 
 
 
 const Card = () => {
-    const width ='100%';
-    const height = '100%';
+    const width ='60%';
+    const height = '60%';
 
 
     const portfolio = [
@@ -30,69 +31,6 @@ const Card = () => {
         },
         {
             id: 2,
-            title: 'Travel website',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            src: project2,
-            demo: 'https://anusha-patel.github.io/travel/',
-            code: 'https://github.com/anusha-patel/travel',
-
-        },
-        {
-            id: 3,
-            src: project3,
-            title: 'Blog',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            code: 'https://github.com/anusha-patel/blog',
-            demo: 'https://anusha-patel.github.io/blog/',
-
-        },
-
-        {
-            id: 4,
-            src: project5,
-            title: 'snake Game',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: 'https://anusha-patel.github.io/snakeGame/',
-            code: 'https://github.com/anusha-patel/snakeGame',
-        },
-        {
-            id: 5,
-            src: project6,
-            title: 'education website',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: 'https://anusha-patel.github.io/trade/',
-            code: 'https://github.com/anusha-patel/trade',
-        },
-        {
-            id: 6,
-            src: project7,
-            title: 'google-keep-clone',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: "https://anusha-patel.github.io/google-keep-clone/",
-            code: "https://github.com/anusha-patel/google-keep-clone",
-        },
-        {
-            id: 7,
-            src: project8,
-            title: 'varal UAE',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: "https://anusha-patel.github.io/varal/",
-            code: "https://github.com/anusha-patel/varal",
-        },
-        {
-            id: 8,
             title: 'real estate',
             lan_1: 'HTML',
             lan_2: 'CSS',
@@ -104,6 +42,83 @@ const Card = () => {
             code: 'https://github.com/anusha-patel/real-estate',
 
         },
+        {
+            id: 3,
+            title: 'weather app',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            lan_4: 'react',
+            lan_5: 'tailwind, open Api & unsplash Api',
+            src: weather,
+            demo: 'https://anusha-patel.github.io/weatherapp_1/',
+            code: 'https://github.com/anusha-patel/weatherapp_1',
+
+        },
+        {
+            id: 4,
+            title: 'Travel website',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            src: project2,
+            demo: 'https://anusha-patel.github.io/travel/',
+            code: 'https://github.com/anusha-patel/travel',
+
+        },
+        {
+            id: 5,
+            src: project3,
+            title: 'Blog',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            code: 'https://github.com/anusha-patel/blog',
+            demo: 'https://anusha-patel.github.io/blog/',
+
+        },
+
+        {
+            id: 6,
+            src: project5,
+            title: 'snake Game',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: 'https://anusha-patel.github.io/snakeGame/',
+            code: 'https://github.com/anusha-patel/snakeGame',
+        },
+        {
+            id: 7,
+            src: project6,
+            title: 'education website',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: 'https://anusha-patel.github.io/trade/',
+            code: 'https://github.com/anusha-patel/trade',
+        },
+        {
+            id: 8,
+            src: project7,
+            title: 'google-keep-clone',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: "https://anusha-patel.github.io/google-keep-clone/",
+            code: "https://github.com/anusha-patel/google-keep-clone",
+        },
+        {
+            id: 9,
+            src: project8,
+            title: 'varal UAE',
+            lan_1: 'HTML',
+            lan_2: 'CSS',
+            lan_3: 'Javascript',
+            demo: "https://anusha-patel.github.io/varal/",
+            code: "https://github.com/anusha-patel/varal",
+        },
+       
 
     ]
     return (
@@ -121,7 +136,7 @@ const Card = () => {
                                 <div className='card-body'>
                                     <div className="title">
                                         <h1>{title}</h1>
-                                        <h2 className='ml-3 p-3'>Languages Used</h2>
+                                        <h2 className='ml-3 p-3'>Languages & Tools</h2>
                                         <ul className=' w-90 ml-10 text-cyan-50 mb-7 ' >
                                             <li>{lan_1}</li>
                                             <li>{lan_2}</li>
@@ -140,7 +155,7 @@ const Card = () => {
                                         <a href={code} target="_blank" rel="noreferrer noopener"> <button className='code link-btn duration-200'>code</button> </a>
                                     </div>
                                 </div>
-                                <div className="image w-full h-full">
+                                <div className="image w-[80%] h-[80%] mt-8 border-gray-500 border-8 rounded-md">
                                     <img className='' width={width} height={height} src={src} alt="" srcset="" />
                                 </div>
                             </div>
