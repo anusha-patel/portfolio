@@ -66,20 +66,10 @@ const Card = () => {
             code: 'https://github.com/anusha-patel/travel',
 
         },
+        
+
         {
             id: 5,
-            src: project3,
-            title: 'Blog',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            code: 'https://github.com/anusha-patel/blog',
-            demo: 'https://anusha-patel.github.io/blog/',
-
-        },
-
-        {
-            id: 6,
             src: project5,
             title: 'snake Game',
             lan_1: 'HTML',
@@ -89,7 +79,7 @@ const Card = () => {
             code: 'https://github.com/anusha-patel/snakeGame',
         },
         {
-            id: 7,
+            id: 6,
             src: project6,
             title: 'education website',
             lan_1: 'HTML',
@@ -99,7 +89,7 @@ const Card = () => {
             code: 'https://github.com/anusha-patel/trade',
         },
         {
-            id: 8,
+            id: 7,
             src: project7,
             title: 'google-keep-clone',
             lan_1: 'HTML',
@@ -109,7 +99,7 @@ const Card = () => {
             code: "https://github.com/anusha-patel/google-keep-clone",
         },
         {
-            id: 9,
+            id: 8,
             src: project8,
             title: 'varal UAE',
             lan_1: 'HTML',
