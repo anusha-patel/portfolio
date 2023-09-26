@@ -2,13 +2,12 @@ import React from 'react';
 import './card.css'
 import project1 from '../../assets/food image.png';
 import project2 from '../../assets/project2.avif';
-import project3 from '../../assets/blog.png';
 import project5 from '../../assets/snake game screenshot.png';
 import project6 from '../../assets/education site image.png';
 import project7 from '../../assets/project7.png'
-import project8 from '../../assets/project8.png'
 import project9 from '../../assets/project9.png';
 import weather from '../../assets/weather_app.png'
+import calorieCheck from '../../assets/calorie-check.png'
 
 
 
@@ -33,10 +32,10 @@ const Card = () => {
             id: 2,
             title: 'real estate',
             lan_1: 'HTML',
-            lan_2: 'CSS',
+            lan_2: 'Material UI',
             lan_3: 'Javascript',
             lan_4: 'React js',
-            lan_5:'Next js',
+            lan_5:'Next js & rapid API',
             src: project9,
             demo: 'https://real-estate-pink-nine.vercel.app/',
             code: 'https://github.com/anusha-patel/real-estate',
@@ -57,6 +56,18 @@ const Card = () => {
         },
         {
             id: 4,
+            src: calorieCheck,
+            title: 'calorie-check',
+            lan_1: 'HTML',
+            lan_2: 'Tailwind css',
+            lan_3: 'Javascript',
+            lan_4:'react js',
+            lan_5:'Edamam API',
+            demo: 'https://anusha-patel.github.io/calorie-check/',
+            code: 'https://github.com/anusha-patel/calorie-check',
+        },
+        {
+            id: 5,
             title: 'Travel website',
             lan_1: 'HTML',
             lan_2: 'CSS',
@@ -69,7 +80,7 @@ const Card = () => {
         
 
         {
-            id: 5,
+            id: 6,
             src: project5,
             title: 'snake Game',
             lan_1: 'HTML',
@@ -78,16 +89,7 @@ const Card = () => {
             demo: 'https://anusha-patel.github.io/snakeGame/',
             code: 'https://github.com/anusha-patel/snakeGame',
         },
-        {
-            id: 6,
-            src: project6,
-            title: 'education website',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: 'https://anusha-patel.github.io/trade/',
-            code: 'https://github.com/anusha-patel/trade',
-        },
+       
         {
             id: 7,
             src: project7,
@@ -98,16 +100,7 @@ const Card = () => {
             demo: "https://anusha-patel.github.io/google-keep-clone/",
             code: "https://github.com/anusha-patel/google-keep-clone",
         },
-        {
-            id: 8,
-            src: project8,
-            title: 'varal UAE',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: "https://anusha-patel.github.io/varal/",
-            code: "https://github.com/anusha-patel/varal",
-        },
+        
        
 
     ]
@@ -145,8 +138,8 @@ const Card = () => {
                                         <a href={code} target="_blank" rel="noreferrer noopener"> <button className='code link-btn duration-200'>code</button> </a>
                                     </div>
                                 </div>
-                                <div className="image w-[80%] h-[80%] mt-8 border-gray-500 border-8 rounded-md">
-                                    <img className='' width={width} height={height} src={src} alt="" srcset="" />
+                                <div className="image w-[80%] h-[80%] mt-8 border-gray-500 border-8 rounded-md ">
+                                    <img className='object-cover' width={width} height={height} src={src} alt="" srcset="" />
                                 </div>
                             </div>
                         ))}
