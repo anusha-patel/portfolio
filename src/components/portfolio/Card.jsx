@@ -79,16 +79,16 @@ const Card = () => {
         },
         
 
-        {
-            id: 6,
-            src: project5,
-            title: 'snake Game',
-            lan_1: 'HTML',
-            lan_2: 'CSS',
-            lan_3: 'Javascript',
-            demo: 'https://anusha-patel.github.io/snakeGame/',
-            code: 'https://github.com/anusha-patel/snakeGame',
-        },
+        // {
+        //     id: 6,
+        //     src: project5,
+        //     title: 'snake Game',
+        //     lan_1: 'HTML',
+        //     lan_2: 'CSS',
+        //     lan_3: 'Javascript',
+        //     demo: 'https://anusha-patel.github.io/snakeGame/',
+        //     code: 'https://github.com/anusha-patel/snakeGame',
+        // },
        
         {
             id: 7,
